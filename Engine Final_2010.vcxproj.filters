@@ -1,0 +1,443 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns:atg="http://atg.xbox.com" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{8e114980-c1a3-4ada-ad7c-83caadf5daeb}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="DXUT">
+      <UniqueIdentifier>{a43c5c25-0e86-4a20-b64a-883785ff74fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{cda816d8-f24c-416c-abdc-3eda9001db1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Asset">
+      <UniqueIdentifier>{d50b3b10-4f82-4708-aa92-82f583bd78d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\World">
+      <UniqueIdentifier>{81bcb168-6e83-4c1d-9437-58e203a8f2ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Texture">
+      <UniqueIdentifier>{bb85e512-0549-4483-a1e6-ba7b1f36a264}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Sprite">
+      <UniqueIdentifier>{9eec3b6b-f2d0-470a-adc0-5f23844398d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Entity">
+      <UniqueIdentifier>{107d8f98-0abd-45d8-865b-c6b035d42fd9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Animation">
+      <UniqueIdentifier>{e92b8bb3-0599-4d0a-b262-66041fcbfd07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{6a272c80-08ac-4001-af49-6bbb337f0baa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Text">
+      <UniqueIdentifier>{fabac2b4-f0bd-4d5d-b572-0c7fef66f8e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Scene">
+      <UniqueIdentifier>{8a4a862d-2456-42fe-8443-db636577cea2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Timer">
+      <UniqueIdentifier>{f0f7dd54-fe7f-4968-9ee8-57b57c5e2ecf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Entity">
+      <UniqueIdentifier>{a8278b56-12b6-4c49-ad12-be895ab6bd9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Scene">
+      <UniqueIdentifier>{35ad422f-f155-4691-a175-0bc040401314}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Scene\GameScene">
+      <UniqueIdentifier>{d060389b-daeb-4079-86f3-a1e91b024355}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Entity\PlayerFrame">
+      <UniqueIdentifier>{01004dfd-b6d9-4bfb-9fc3-2debbfe30ca1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Entity\Player">
+      <UniqueIdentifier>{925ba48b-11ec-456e-bdb0-e607b8b64d3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Entity\Player\Player02">
+      <UniqueIdentifier>{bd774207-38d2-4723-95b8-9eea2433b9ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Entity\Player\Player03">
+      <UniqueIdentifier>{56c1077d-f856-4021-8ef0-65fdab102b96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Entity\Player\Player01">
+      <UniqueIdentifier>{c05e9f70-0c2d-44c4-86e5-f5521321dbe2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameManager">
+      <UniqueIdentifier>{815e9e62-16fe-445e-a5ee-9a1cbe323929}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Entity\Projectile">
+      <UniqueIdentifier>{85f439dc-777c-4231-a6e6-41c01efd0f6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Entity\Player\Temp">
+      <UniqueIdentifier>{c57e9e8d-b407-4944-bb67-2341516ecba3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Entity\Player\Player04">
+      <UniqueIdentifier>{ff3949bb-bc43-4ea5-9a32-7d00f052b39d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Scene\Lobby">
+      <UniqueIdentifier>{6456c8a5-c776-4823-80f9-05adc5abe916}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Scene\Title">
+      <UniqueIdentifier>{4caa4cf4-20a1-4b68-87b2-dd2de7079ca5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Scene\WIN">
+      <UniqueIdentifier>{0ed3af61-ad18-4b9f-b001-ac9b8fc46cbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Scene\Online">
+      <UniqueIdentifier>{f6836c90-d1e0-44cd-8703-e04d635d4f9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Scene\Online\RoomInfo">
+      <UniqueIdentifier>{85ff1610-1b55-4914-957b-5da6d66cc88c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network">
+      <UniqueIdentifier>{2c3d4c8c-5d1a-459a-a05a-a4e4b608a44e}</UniqueIdentifier>
+      <Extensions>fx;fxh;hlsl</Extensions>
+    </Filter>
+    <Filter Include="Game\Scene\Online\MakeRoom">
+      <UniqueIdentifier>{77d8192c-51e8-41fd-b1dd-4473f98b8ad9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Scene\Online\JoinRoom">
+      <UniqueIdentifier>{17ef7e9e-5d3f-434e-937e-02f831b8fec0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Scene\Tutorial">
+      <UniqueIdentifier>{016ce1fb-3821-457e-a774-c1c7f53ec467}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DXUT\Optional\directx.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <ClInclude Include="DXUT\Core\DXUT.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Core\DXUTenum.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Core\DXUTmisc.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClCompile Include="DXUT\Core\DXUT.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Core\DXUTenum.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Core\DXUTmisc.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClInclude Include="DXUT\Optional\DXUTcamera.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\DXUTgui.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\DXUTres.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\DXUTsettingsdlg.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\SDKmesh.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\SDKmisc.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClCompile Include="DXUT\Optional\DXUTcamera.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\DXUTgui.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\DXUTres.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\DXUTsettingsdlg.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\SDKmesh.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\SDKmisc.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Asset.cpp">
+      <Filter>Engine\Asset</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Engine\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="World.cpp">
+      <Filter>Engine\World</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Engine\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>Engine\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>Engine\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Text.cpp">
+      <Filter>Engine\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\SDKsound.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\SDKwavefile.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Engine\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>Engine\Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScene.cpp">
+      <Filter>Game\Scene\GameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerFrame.cpp">
+      <Filter>Game\Entity\PlayerFrame</Filter>
+    </ClCompile>
+    <ClCompile Include="Player_02.cpp">
+      <Filter>Game\Entity\Player\Player02</Filter>
+    </ClCompile>
+    <ClCompile Include="Player_01.cpp">
+      <Filter>Game\Entity\Player\Player01</Filter>
+    </ClCompile>
+    <ClCompile Include="Local_GameManager.cpp">
+      <Filter>Game\GameManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Projectile.cpp">
+      <Filter>Game\Entity\Projectile</Filter>
+    </ClCompile>
+    <ClCompile Include="Player_03.cpp">
+      <Filter>Game\Entity\Player\Player03</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationTest.cpp">
+      <Filter>Game\Entity\Player\Temp</Filter>
+    </ClCompile>
+    <ClCompile Include="Player_04.cpp">
+      <Filter>Game\Entity\Player\Player04</Filter>
+    </ClCompile>
+    <ClCompile Include="LobbyScene.cpp">
+      <Filter>Game\Scene\Lobby</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleScene.cpp">
+      <Filter>Game\Scene\Title</Filter>
+    </ClCompile>
+    <ClCompile Include="WinnerScene.cpp">
+      <Filter>Game\Scene\WIN</Filter>
+    </ClCompile>
+    <ClCompile Include="RoomInfo.cpp">
+      <Filter>Game\Scene\Online\RoomInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="Online_Lobby.cpp">
+      <Filter>Game\Scene\Online</Filter>
+    </ClCompile>
+    <ClCompile Include="IPEndpoint.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Packet.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Network.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="PacketManager.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Socket.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="TCPConnection.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="WigGuidedMissile.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="MakeRoom.cpp">
+      <Filter>Game\Scene\Online\MakeRoom</Filter>
+    </ClCompile>
+    <ClCompile Include="JoinRoom.cpp">
+      <Filter>Game\Scene\Online\JoinRoom</Filter>
+    </ClCompile>
+    <ClCompile Include="Husu.cpp">
+      <Filter>Game\Scene\Tutorial</Filter>
+    </ClCompile>
+    <ClCompile Include="Tutorial.cpp">
+      <Filter>Game\Scene\Tutorial</Filter>
+    </ClCompile>
+    <ClCompile Include="TutorialGame.cpp">
+      <Filter>Game\Scene\Tutorial</Filter>
+    </ClCompile>
+    <ClCompile Include="HPController.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientManager.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Asset.h">
+      <Filter>Engine\Asset</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Engine\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="World.h">
+      <Filter>Engine\World</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Engine\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>Engine\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>Engine\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Define.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Text.h">
+      <Filter>Engine\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\SDKsound.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\SDKwavefile.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Engine\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Engine\Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerFrame.h">
+      <Filter>Game\Entity\PlayerFrame</Filter>
+    </ClInclude>
+    <ClInclude Include="Player_02.h">
+      <Filter>Game\Entity\Player\Player02</Filter>
+    </ClInclude>
+    <ClInclude Include="Player_01.h">
+      <Filter>Game\Entity\Player\Player01</Filter>
+    </ClInclude>
+    <ClInclude Include="Local_GameManager.h">
+      <Filter>Game\GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Projectile.h">
+      <Filter>Game\Entity\Projectile</Filter>
+    </ClInclude>
+    <ClInclude Include="Player_03.h">
+      <Filter>Game\Entity\Player\Player03</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationTest.h">
+      <Filter>Game\Entity\Player\Temp</Filter>
+    </ClInclude>
+    <ClInclude Include="Player_04.h">
+      <Filter>Game\Entity\Player\Player04</Filter>
+    </ClInclude>
+    <ClInclude Include="LobbyScene.h">
+      <Filter>Game\Scene\Lobby</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScene.h">
+      <Filter>Game\Scene\GameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleScene.h">
+      <Filter>Game\Scene\Title</Filter>
+    </ClInclude>
+    <ClInclude Include="WinnerScene.h">
+      <Filter>Game\Scene\WIN</Filter>
+    </ClInclude>
+    <ClInclude Include="RoomInfo.h">
+      <Filter>Game\Scene\Online\RoomInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="Online_Lobby.h">
+      <Filter>Game\Scene\Online</Filter>
+    </ClInclude>
+    <ClInclude Include="Constants.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Helpers.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="IPEndpoint.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="IPVersion.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Network.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Packet.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="PacketManager.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="PacketType.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Socket.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="PacketException.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="SocketHandle.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="SocketOption.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="TCPConnection.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="WigGuidedMissile.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="MakeRoom.h">
+      <Filter>Game\Scene\Online\MakeRoom</Filter>
+    </ClInclude>
+    <ClInclude Include="JoinRoom.h">
+      <Filter>Game\Scene\Online\JoinRoom</Filter>
+    </ClInclude>
+    <ClInclude Include="Husu.h">
+      <Filter>Game\Scene\Tutorial</Filter>
+    </ClInclude>
+    <ClInclude Include="Tutorial.h">
+      <Filter>Game\Scene\Tutorial</Filter>
+    </ClInclude>
+    <ClInclude Include="TutorialGame.h">
+      <Filter>Game\Scene\Tutorial</Filter>
+    </ClInclude>
+    <ClInclude Include="HPController.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientManager.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CLInclude Include="resource.h">
+      <Filter>Resource Files</Filter>
+    </CLInclude>
+    <ResourceCompile Include="Engine Final.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
